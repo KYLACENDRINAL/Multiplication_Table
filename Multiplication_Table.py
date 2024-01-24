@@ -8,4 +8,8 @@ def print_multiplication_table():
         for j in range (1, 11):
             result=i*j
             
+    
 # Print the multiplication table
+            print (f"{result:<4}", end=" ")
+        print()
+print_multiplication_table()
